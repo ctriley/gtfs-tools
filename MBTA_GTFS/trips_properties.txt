@@ -1,0 +1,603 @@
+trip_id,trip_property_id,value
+62502638,note,Waits at Forest Hills for last Orange Line train
+62502638,trip_type,wait
+62502993,note,Waits at Ashmont for last Red Line train
+62502993,note,Waits at Mattapan for last Mattapan Trolley train
+62502993,trip_type,wait
+62503093,note,Waits at Forest Hills for last Orange Line train
+62503093,trip_type,wait
+62503283,note,Waits at Forest Hills for last Orange Line train
+62503283,trip_type,wait
+62503635,note,Waits at Ashmont for last Red Line train
+62503635,trip_type,wait
+62503665,note,Waits at Forest Hills for last Orange Line train
+62503665,trip_type,wait
+62504856,note,Waits at Forest Hills for last Orange Line train
+62504856,trip_type,wait
+62505092,note,Waits at Forest Hills for last Orange Line train
+62505092,trip_type,wait
+62505173,note,Waits at Forest Hills for last Orange Line train
+62505173,trip_type,wait
+62505391,note,Waits at Forest Hills for last Orange Line train
+62505391,trip_type,wait
+62820931,note,Waits at Ruggles for last Orange Line train
+62820931,trip_type,wait
+62820957,note,Waits at Tremont St opp Temple Pl for last Red Line and Green Line trains
+62820957,trip_type,wait
+62821068,note,Waits at W Broadway @ Broadway Station for last Red Line train
+62821068,trip_type,wait
+62821277,note,Waits at W Broadway @ Broadway Station for last Red Line train
+62821277,trip_type,wait
+62821311,note,Waits at Ruggles for last Orange Line train
+62821311,trip_type,wait
+62821383,note,Waits at Green St @ Magazine St for last Red Line train
+62821383,trip_type,wait
+62821390,note,Waits at Ruggles for last Orange Line train
+62821390,trip_type,wait
+62821526,note,Waits at Boylston St @ Dartmouth St for last Green Line train
+62821526,trip_type,wait
+62821597,note,Waits at Kenmore for last Green Line train
+62821597,trip_type,wait
+62821788,note,Waits at Ashmont for last Red Line train
+62821788,trip_type,wait
+62821846,note,Waits at Ruggles for last Orange Line train
+62821846,trip_type,wait
+62821919,note,Waits at Andrew for last Red Line train
+62821919,trip_type,wait
+62821920,note,Waits at Forest Hills for last Orange Line train
+62821920,trip_type,wait
+62822030,note,Waits at Harvard Sq @ Garden St - Dawes Island for last Red Line train
+62822030,trip_type,wait
+62822059,note,Waits at Nubian for last Silver Line bus
+62822059,trip_type,wait
+62822328,note,Waits at Nubian for last Silver Line bus
+62822328,trip_type,wait
+62822424,note,Waits at Massachusetts Ave opp Holyoke St for last Red Line train
+62822424,trip_type,wait
+62825057,note,Waits at Ruggles for last Orange Line train
+62825057,trip_type,wait
+62825097,note,Waits at Tremont St opp Temple Pl for last Red Line and Green Line trains
+62825097,trip_type,wait
+62825237,note,Waits at W Broadway @ Broadway Station for last Red Line train
+62825237,trip_type,wait
+62825348,note,Waits at Massachusetts Ave opp Holyoke St for last Red Line train
+62825348,trip_type,wait
+62825350,note,Waits at Nubian for last Silver Line bus
+62825350,trip_type,wait
+62825458,note,Waits at W Broadway @ Broadway Station for last Red Line train
+62825458,trip_type,wait
+62825590,note,Waits at Ruggles for last Orange Line train
+62825590,trip_type,wait
+62825802,note,Waits at Nubian for last Silver Line bus
+62825802,trip_type,wait
+62825812,note,Waits at Harvard Sq @ Garden St - Dawes Island for last Red Line train
+62825812,trip_type,wait
+62825954,note,Waits at Kenmore for last Green Line train
+62825954,trip_type,wait
+62826011,note,Waits at Boylston St @ Dartmouth St for last Green Line train
+62826011,trip_type,wait
+62826092,note,Waits at Andrew for last Red Line train
+62826092,trip_type,wait
+62826093,note,Waits at Forest Hills for last Orange Line train
+62826093,trip_type,wait
+62826288,note,Waits at Ashmont for last Red Line train
+62826288,trip_type,wait
+62826359,note,Waits at Ruggles for last Orange Line train
+62826359,trip_type,wait
+62851902,note,Waits at Park Street for last Red Line and Green Line trains
+62851902,trip_type,wait
+62852347,note,Waits at Park Street for last Red Line and Green Line trains
+62852347,trip_type,wait
+62852367,note,Waits at some downtown stations for connections
+62852367,trip_type,wait
+62852410,note,Waits at Park Street for last Red Line and Green Line trains
+62852410,trip_type,wait
+62852465,note,Waits at Park Street for last Red Line and Green Line trains
+62852465,trip_type,wait
+62853140,note,Waits at some downtown stations for connections
+62853140,trip_type,wait
+62853909,note,Waits at Park Street for last Red Line and Green Line trains
+62853909,trip_type,wait
+62854257,note,Waits at Park Street for last Red Line and Green Line trains
+62854257,trip_type,wait
+62854259,note,Waits at Park Street for last Red Line and Green Line trains
+62854259,trip_type,wait
+62854308,note,Waits at Park Street for last Red Line and Green Line trains
+62854308,trip_type,wait
+62854513,note,Waits at Park Street for last Red Line and Green Line trains
+62854513,trip_type,wait
+62854633,note,Waits at Park Street for last Red Line and Green Line trains
+62854633,trip_type,wait
+62860539,note,Waits at Ashmont for last Red Line train
+62860539,note,Waits at Ashmont for last Red Line train
+62860539,trip_type,wait
+62860730,note,Waits at Ashmont for last Red Line train
+62860730,note,Waits at Ashmont for last Red Line train
+62860730,trip_type,wait
+62861036,note,Waits at Ashmont for last Red Line train
+62861036,trip_type,wait
+62921857,note,Waits at some downtown stations for connections
+62921857,trip_type,wait
+62921963,note,Waits at some downtown stations for connections
+62921963,trip_type,wait
+62922158,note,Waits at Park Street for last Red Line and Green Line trains
+62922158,trip_type,wait
+62922343,note,Waits at Park Street for last Red Line and Green Line trains
+62922343,trip_type,wait
+62922399,note,Waits at Park Street for last Red Line and Green Line trains
+62922399,trip_type,wait
+62922605,note,Waits at Park Street for last Red Line and Green Line trains
+62922605,trip_type,wait
+63070771,note,Waits at Ashmont for last Red Line train
+63070771,trip_type,wait
+63070812,note,Waits at W Broadway @ Broadway Station for last Red Line train
+63070812,trip_type,wait
+63070936,note,Waits at W Broadway @ Broadway Station for last Red Line train
+63070936,trip_type,wait
+63071350,note,Waits at Nubian for last Silver Line bus
+63071350,trip_type,wait
+63071351,note,Waits at Nubian for last Silver Line bus
+63071351,trip_type,wait
+63071601,note,Waits at Harvard Sq @ Garden St - Dawes Island for last Red Line train
+63071601,trip_type,wait
+63071700,note,Waits at Massachusetts Ave opp Holyoke St for last Red Line train
+63071700,trip_type,wait
+63071934,note,Waits at Tremont St opp Temple Pl for last Red Line and Green Line trains
+63071934,trip_type,wait
+63072292,note,Waits at Ruggles for last Orange Line train
+63072292,trip_type,wait
+63072293,note,Waits at Ruggles for last Orange Line train
+63072293,trip_type,wait
+63072294,note,Waits at Ruggles for last Orange Line train
+63072294,trip_type,wait
+63072295,note,Waits at Ruggles for last Orange Line train
+63072295,trip_type,wait
+63073049,note,Waits at Kenmore for last Green Line train
+63073049,trip_type,wait
+63073084,note,Waits at Andrew for last Red Line train
+63073084,trip_type,wait
+63073087,note,Waits at Forest Hills for last Orange Line train
+63073087,trip_type,wait
+63073089,note,Waits at Boylston St @ Dartmouth St for last Green Line train
+63073089,trip_type,wait
+63073532,note,Waits at Green St @ Magazine St for last Red Line train
+63073532,trip_type,wait
+63087971,note,Waits at Fields Corner for last Red Line train
+63087971,trip_type,wait
+63088135,note,Waits at Quincy Center for last Red Line train
+63088135,trip_type,wait
+63088642,note,Waits at Fields Corner for last Red Line train
+63088642,trip_type,wait
+63088739,note,Waits at Quincy Center for last Red Line train
+63088739,trip_type,wait
+63089104,note,Waits at Fields Corner for last Red Line train
+63089104,trip_type,wait
+63089358,note,Waits at Quincy Center for last Red Line train
+63089358,trip_type,wait
+63092297,note,Waits at Sullivan Square for last Orange Line train
+63092297,trip_type,wait
+63092382,note,Waits at Malden Center for last Orange Line train
+63092382,trip_type,wait
+63092639,note,Waits at Sullivan Square for last Orange Line train
+63092639,trip_type,wait
+63092809,note,Waits at Surface Rd @ Hanover St for last Orange Line and Green Line trains
+63092809,trip_type,wait
+63092862,note,Waits at Harvard for last Red Line train
+63092862,trip_type,wait
+63093080,note,Waits at Sullivan Square for last Orange Line train
+63093080,trip_type,wait
+63093113,note,Waits at Wellington for last Orange Line train
+63093113,trip_type,wait
+63096339,note,Waits at Wellington for last Orange Line train
+63096339,trip_type,wait
+63096463,note,Waits at Sullivan Square for last Orange Line train
+63096463,trip_type,wait
+63096528,note,Waits at Wellington for last Orange Line train
+63096528,trip_type,wait
+63096564,note,Waits at Sullivan Square for last Orange Line train
+63096564,trip_type,wait
+63096646,note,Waits at Sullivan Square for last Orange Line train
+63096646,trip_type,wait
+63097007,note,Waits at Malden Center for last Orange Line train
+63097007,trip_type,wait
+63097011,note,Waits at Wellington for last Orange Line train
+63097011,trip_type,wait
+63097165,note,Waits at Sullivan Square for last Orange Line train
+63097165,trip_type,wait
+63097183,note,Waits at Surface Rd @ Hanover St for last Orange Line and Green Line trains
+63097183,trip_type,wait
+63097453,note,Waits at Sullivan Square for last Orange Line train
+63097453,trip_type,wait
+63097490,note,Waits at Wellington for last Orange Line train
+63097490,trip_type,wait
+63097619,note,Waits at Harvard for last Red Line train
+63097619,trip_type,wait
+63144874,note,Waits at some downtown stations for connections
+63144874,trip_type,wait
+63144927,note,Waits at some downtown stations for connections
+63144927,trip_type,wait
+63145231,note,Waits at some downtown stations for connections
+63145231,trip_type,wait
+63145238,note,Waits at some downtown stations for connections
+63145238,trip_type,wait
+63145536,note,Waits at some downtown stations for connections
+63145536,trip_type,wait
+63145670,note,Waits at some downtown stations for connections
+63145670,trip_type,wait
+63157199,note,Waits at Mt Auburn St @ Story St for last Red Line train
+63157199,trip_type,wait
+63157320,note,Waits at Mt Auburn St @ Story St for last Red Line train
+63157320,trip_type,wait
+63157698,note,Waits at Lechmere for last Green Line train
+63157698,trip_type,wait
+63157722,note,Waits at Lechmere for last Green Line train
+63157722,trip_type,wait
+63157828,note,Waits at Lechmere for last Green Line train
+63157828,trip_type,wait
+63157903,note,Waits at Western Ave @ Green St for last Red Line train
+63157903,trip_type,wait
+63158147,note,Waits at Lechmere for last Green Line train
+63158147,trip_type,wait
+63158361,note,Waits at Harvard for last Red Line train
+63158361,trip_type,wait
+63158405,note,Waits at Main St @ Kendall Station - Red Line for last Red Line train
+63158405,trip_type,wait
+63158479,note,Waits at Green St @ Magazine St for last Red Line train
+63158479,trip_type,wait
+63158900,note,Waits at Harvard for last Red Line train
+63158900,trip_type,wait
+63159661,note,Waits at Harvard for last Red Line train
+63159661,trip_type,wait
+63159732,note,Waits at Harvard for last Red Line train
+63159732,trip_type,wait
+63159919,note,Waits at Harvard for last Red Line train
+63159919,trip_type,wait
+63160016,note,Waits at Green St @ Magazine St for last Red Line train
+63160016,trip_type,wait
+63160170,note,Waits at Lechmere for last Green Line train
+63160170,trip_type,wait
+63160207,note,Waits at Lechmere for last Green Line train
+63160207,trip_type,wait
+63160275,note,Waits at Lechmere for last Green Line train
+63160275,trip_type,wait
+63160362,note,Waits at Western Ave @ Green St for last Red Line train
+63160362,trip_type,wait
+63163560,note,Waits at Lechmere for last Green Line train
+63163560,trip_type,wait
+63163757,note,Waits at Harvard for last Red Line train
+63163757,trip_type,wait
+63163934,note,Waits at Green St @ Magazine St for last Red Line train
+63163934,trip_type,wait
+63164095,note,Waits at Harvard for last Red Line train
+63164095,trip_type,wait
+63164097,note,Waits at Harvard for last Red Line train
+63164097,trip_type,wait
+63164267,note,Waits at Harvard for last Red Line train
+63164267,trip_type,wait
+63164389,note,Waits at Lechmere for last Green Line train
+63164389,trip_type,wait
+63164564,note,Waits at Magazine St @ Green St for last Red Line train
+63164564,trip_type,wait
+63164598,note,Waits at Western Ave @ Green St for last Red Line train
+63164598,trip_type,wait
+63164753,note,Waits at Lechmere for last Green Line train
+63164753,trip_type,wait
+63164804,note,Waits at Lechmere for last Green Line train
+63164804,trip_type,wait
+63208129,note,Waits at South Station for last Red Line train
+63208129,trip_type,wait
+63208299,note,Waits at Mattapan for last Mattapan Trolley train
+63208299,trip_type,wait
+63208302,note,Waits at Ruggles for last Orange Line train
+63208302,trip_type,wait
+63208305,note,Waits at Temple Pl @ Washington St for last Red Line and Orange Line trains
+63208305,trip_type,wait
+63209019,note,Waits at Back Bay for last Orange Line train
+63209019,trip_type,wait
+63209188,note,Waits at South Station for last Red Line train
+63209188,trip_type,wait
+63212506,note,Waits at Orient Heights for last Blue Line train
+63212506,trip_type,wait
+63212891,note,Waits at Orient Heights for last Blue Line train
+63212891,trip_type,wait
+63213451,note,Waits at Orient Heights for last Blue Line train
+63213451,trip_type,wait
+63213452,note,Will go to Point Shirley if requested
+63213679,note,Waits at Temple Pl @ Washington St for last Red Line and Orange Line trains
+63213679,trip_type,wait
+63213813,note,Waits at Mattapan for last Mattapan Trolley train
+63213813,trip_type,wait
+63213832,note,Waits at Ruggles for last Orange Line train
+63213832,trip_type,wait
+63214063,note,Waits at South Station for last Red Line train
+63214063,trip_type,wait
+63214368,note,Waits at Back Bay for last Orange Line train
+63214368,trip_type,wait
+63214583,note,Waits at South Station for last Red Line train
+63214583,trip_type,wait
+63256615,note,Waits at Malden Center for last Orange Line train
+63256615,trip_type,wait
+63256673,note,Waits at Harvard for last Red Line train
+63256673,trip_type,wait
+63256970,note,Waits at Sullivan Square for last Orange Line train
+63256970,trip_type,wait
+63256971,note,Waits at Sullivan Square for last Orange Line train
+63256971,trip_type,wait
+63256972,note,Waits at Sullivan Square for last Orange Line train
+63256972,trip_type,wait
+63257048,note,Waits at Wellington for last Orange Line train
+63257048,trip_type,wait
+63257049,note,Waits at Wellington for last Orange Line train
+63257049,trip_type,wait
+63257050,note,Waits at Wellington for last Orange Line train
+63257050,trip_type,wait
+63257108,note,Waits at Wellington for last Orange Line train
+63257108,trip_type,wait
+63257512,note,Waits at Surface Rd @ Hanover St for last Orange Line and Green Line trains
+63257512,trip_type,wait
+63272833,note,Waits at Maverick for last Blue Line train
+63272833,trip_type,wait
+63272921,note,Waits at Maverick for last Blue Line train
+63272921,trip_type,wait
+63273010,note,Waits at Wonderland for last Blue Line train
+63273010,trip_type,wait
+63273332,note,Waits at Maverick for last Blue Line train
+63273332,trip_type,wait
+63273437,note,Waits at Maverick for last Blue Line train
+63273437,trip_type,wait
+63273505,note,Waits at Wonderland for last Blue Line train
+63273505,trip_type,wait
+63283490,note,Waits at State for last Blue Line train
+63283490,note,Waits at Downtown Crossing for last Red Line train
+63283490,trip_type,wait
+63283572,note,Waits at Downtown Crossing for last Red Line train
+63283572,trip_type,wait
+63283808,note,Waits at State for last Blue Line train
+63283808,note,Waits at Downtown Crossing for last Red Line train
+63283808,trip_type,wait
+63283809,note,Waits at Downtown Crossing for last Red Line train
+63283809,trip_type,wait
+63288268,note,Waits at some downtown stations for connections
+63288268,trip_type,wait
+63288279,note,Waits at some downtown stations for connections
+63288279,trip_type,wait
+63350098,note,Waits at Government Center for last Green Line train
+63350098,note,Waits at State for last Orange Line train
+63350098,trip_type,wait
+63350450,note,Waits at State for last Orange Line train
+63350450,trip_type,wait
+63350749,note,Waits at State for last Orange Line train
+63350749,trip_type,wait
+63350770,note,Waits at Government Center for last Green Line train
+63350770,note,Waits at State for last Orange Line train
+63350770,trip_type,wait
+63350986,note,Waits at Government Center for last Green Line train
+63350986,note,Waits at State for last Orange Line train
+63350986,trip_type,wait
+63350989,note,Waits at State for last Orange Line train
+63350989,trip_type,wait
+63360785,note,Waits at Ashmont for last Red Line train
+63360785,note,Waits at Mattapan for last Mattapan Trolley train
+63360785,trip_type,wait
+63361024,note,Waits at Forest Hills for last Orange Line train
+63361024,trip_type,wait
+63361515,note,Waits at Ashmont for last Red Line train
+63361515,trip_type,wait
+63361772,note,Waits at Forest Hills for last Orange Line train
+63361772,trip_type,wait
+63362262,note,Waits at Forest Hills for last Orange Line train
+63362262,trip_type,wait
+63362362,note,Waits at Forest Hills for last Orange Line train
+63362362,trip_type,wait
+63473231,note,Waits at Maverick for last Blue Line train
+63473231,trip_type,wait
+63473414,note,Waits at Congress St @ Haymarket Sta for last Orange Line and Green Line trains
+63473414,trip_type,wait
+63473647,note,Waits at Wonderland for last Blue Line train
+63473647,trip_type,wait
+63473853,note,Waits at Maverick for last Blue Line train
+63473853,trip_type,wait
+63475267,note,Waits at Maverick for last Blue Line train
+63475267,trip_type,wait
+63475450,note,Waits at Congress St @ Haymarket Sta for last Orange Line and Green Line trains
+63475450,trip_type,wait
+63475683,note,Waits at Wonderland for last Blue Line train
+63475683,trip_type,wait
+63475889,note,Waits at Maverick for last Blue Line train
+63475889,trip_type,wait
+63480175,note,Waits at Temple Pl @ Washington St for last Red Line and Orange Line trains
+63480175,trip_type,wait
+63480263,note,Waits at Mattapan for last Mattapan Trolley train
+63480263,trip_type,wait
+63480267,note,Waits at Ruggles for last Orange Line train
+63480267,trip_type,wait
+63480649,note,Waits at Back Bay for last Orange Line train
+63480649,trip_type,wait
+63481247,note,Waits at South Station for last Red Line train
+63481247,trip_type,wait
+63481371,note,Waits at South Station for last Red Line train
+63481371,trip_type,wait
+63493807,note,Waits at Temple Pl @ Washington St for last Red Line and Orange Line trains
+63493807,trip_type,wait
+63493885,note,Waits at Mattapan for last Mattapan Trolley train
+63493885,trip_type,wait
+63493894,note,Waits at Ruggles for last Orange Line train
+63493894,trip_type,wait
+63494274,note,Waits at Back Bay for last Orange Line train
+63494274,trip_type,wait
+63494871,note,Waits at South Station for last Red Line train
+63494871,trip_type,wait
+63495176,note,Waits at South Station for last Red Line train
+63495176,trip_type,wait
+63813992,note,Waits at some downtown stations for connections
+63813992,trip_type,wait
+63814098,note,Waits at some downtown stations for connections
+63814098,trip_type,wait
+63868986,note,Waits at some downtown stations for connections
+63868986,trip_type,wait
+63869000,note,Waits at some downtown stations for connections
+63869000,trip_type,wait
+64574889,note,Waits at Park Street for last Red Line and Green Line trains
+64574889,trip_type,wait
+64574890,note,Waits at Park Street for last Red Line and Green Line trains
+64574890,trip_type,wait
+64594728,note,Waits at some downtown stations for connections
+64594728,trip_type,wait
+64594730,note,Waits at Park Street for last Red Line and Green Line trains
+64594730,trip_type,wait
+CR-677275-2816-1,note,Waits at Readville for Train 2716
+CR-677275-2816-1,trip_type,wait
+CR-677171-1802-1,note,Waits at Readville for Train 1702
+CR-677171-1802-1,trip_type,wait
+CR-677285-2814-1,note,Waits at Readville for Train 2714
+CR-677285-2814-1,trip_type,wait
+CR-677180-1812-1,note,Waits at Readville for Train 1712
+CR-677180-1812-1,trip_type,wait
+CR-677294-2818-1,note,Waits at Readville for Train 2718
+CR-677294-2818-1,trip_type,wait
+CR-677158-1808-1,note,Waits at Readville for Train 1708
+CR-677158-1808-1,trip_type,wait
+CR-677174-1806-1,note,Waits at Readville for Train 1706
+CR-677174-1806-1,trip_type,wait
+CR-677287-2802-1,note,Waits at Readville for Train 2702
+CR-677287-2802-1,trip_type,wait
+CR-677173-1814-1,note,Waits at Readville for Train 1714
+CR-677173-1814-1,trip_type,wait
+CR-677273-2808-1,note,Waits at Readville for Train 2708
+CR-677273-2808-1,trip_type,wait
+CR-677177-1800-1,note,Waits at Readville for Train 1700
+CR-677177-1800-1,trip_type,wait
+CR-677179-1818-1,note,Waits at Readville for Train 1718
+CR-677179-1818-1,trip_type,wait
+CR-677169-1810-1,note,Waits at Readville for Train 1710
+CR-677169-1810-1,trip_type,wait
+CR-677284-2812-1,note,Waits at Readville for Train 2712
+CR-677284-2812-1,trip_type,wait
+CR-677162-1816-1,note,Waits at Readville for Train 1716
+CR-677162-1816-1,trip_type,wait
+CR-677290-2810-1,note,Waits at Readville for Train 2710
+CR-677290-2810-1,trip_type,wait
+CR-677289-2800-1,note,Waits at Readville for Train 2700
+CR-677289-2800-1,trip_type,wait
+CR-677163-1804-1,note,Waits at Readville for Train 1704
+CR-677163-1804-1,trip_type,wait
+CR-677293-2804-1,note,Waits at Readville for Train 2704
+CR-677293-2804-1,trip_type,wait
+CR-677292-2806-1,note,Waits at Readville for Train 2706
+CR-677292-2806-1,trip_type,wait
+CR-660265-167,note,Waits at Salem for Train 127
+CR-660265-167,trip_type,wait
+CR-670254-757,note,Waits at Readville for Train 833
+CR-670254-757,trip_type,wait
+CR-670103-067,note,Waits at Braintree for Train 031
+CR-670103-067,trip_type,wait
+CR-670330-892,note,Waits at Readville for Train 732
+CR-670330-892,trip_type,wait
+CR-670302-862,note,Waits at Readville for Train 740
+CR-670302-862,trip_type,wait
+CR-670286-828,note,Waits at Readville for Train 752
+CR-670286-828,trip_type,wait
+CR-670211-635,note,Waits at Forest Hills for Train 841
+CR-670211-635,trip_type,wait
+CR-670210-633,note,Waits at Forest Hills for Train 839
+CR-670210-633,trip_type,wait
+CR-670256-759,note,Waits at Readville for Train 837
+CR-670256-759,trip_type,wait
+CR-670298-840,note,Waits at Readville for Train 734
+CR-670298-840,trip_type,wait
+CR-670236-735,note,Waits at Readville for Train 841
+CR-670236-735,trip_type,wait
+CR-670292-834,note,Waits at Readville for Train 728
+CR-670292-834,trip_type,wait
+CR-677275-2816,note,Waits at Readville for Train 2716
+CR-677275-2816,trip_type,wait
+CR-677171-1802,note,Waits at Readville for Train 1702
+CR-677171-1802,trip_type,wait
+CR-677285-2814,note,Waits at Readville for Train 2714
+CR-677285-2814,trip_type,wait
+CR-677180-1812,note,Waits at Readville for Train 1712
+CR-677180-1812,trip_type,wait
+CR-665302-1701,note,Waits at Readville for Train 1801
+CR-665302-1701,trip_type,wait
+CR-677294-2818,note,Waits at Readville for Train 2718
+CR-677294-2818,trip_type,wait
+CR-665274-1057,note,Waits at Braintree for Train 1021
+CR-665274-1057,trip_type,wait
+CR-677158-1808,note,Waits at Readville for Train 1708
+CR-677158-1808,trip_type,wait
+CR-665346-1713,note,Waits at Readville for Train 1813
+CR-665346-1713,trip_type,wait
+CR-665398-2713,note,Waits at Readville for Train 2813
+CR-665398-2713,trip_type,wait
+CR-677174-1806,note,Waits at Readville for Train 1706
+CR-677174-1806,trip_type,wait
+CR-665334-1717,note,Waits at Readville for Train 1817
+CR-665334-1717,trip_type,wait
+CR-665434-2701,note,Waits at Readville for Train 2801
+CR-665434-2701,trip_type,wait
+CR-665433-2703,note,Waits at Readville for Train 2803
+CR-665433-2703,trip_type,wait
+CR-665280-1703,note,Waits at Readville for Train 1803
+CR-665280-1703,trip_type,wait
+CR-677287-2802,note,Waits at Readville for Train 2702
+CR-677287-2802,trip_type,wait
+CR-677173-1814,note,Waits at Readville for Train 1714
+CR-677173-1814,trip_type,wait
+CR-665417-2709,note,Waits at Readville for Train 2809
+CR-665417-2709,trip_type,wait
+CR-677273-2808,note,Waits at Readville for Train 2708
+CR-677273-2808,trip_type,wait
+CR-665342-1705,note,Waits at Readville for Train 1805
+CR-665342-1705,trip_type,wait
+CR-665414-2717,note,Waits at Readville for Train 2817
+CR-665414-2717,trip_type,wait
+CR-665347-1711,note,Waits at Readville for Train 1811
+CR-665347-1711,trip_type,wait
+CR-677177-1800,note,Waits at Readville for Train 1700
+CR-677177-1800,trip_type,wait
+CR-665324-1719,note,Waits at Readville for Train 1819
+CR-665324-1719,trip_type,wait
+CR-677179-1818,note,Waits at Readville for Train 1718
+CR-677179-1818,trip_type,wait
+CR-677169-1810,note,Waits at Readville for Train 1710
+CR-677169-1810,trip_type,wait
+CR-677284-2812,note,Waits at Readville for Train 2712
+CR-677284-2812,trip_type,wait
+CR-665438-2707,note,Waits at Readville for Train 2807
+CR-665438-2707,trip_type,wait
+CR-665469-2057,note,Waits at Braintree for Train 2021
+CR-665469-2057,trip_type,wait
+CR-677162-1816,note,Waits at Readville for Train 1716
+CR-677162-1816,trip_type,wait
+CR-677290-2810,note,Waits at Readville for Train 2710
+CR-677290-2810,trip_type,wait
+CR-665380-2715,note,Waits at Readville for Train 2815
+CR-665380-2715,trip_type,wait
+CR-677289-2800,note,Waits at Readville for Train 2700
+CR-677289-2800,trip_type,wait
+CR-665336-1715,note,Waits at Readville for Train 1815
+CR-665336-1715,trip_type,wait
+CR-665338-1709,note,Waits at Readville for Train 1809
+CR-665338-1709,trip_type,wait
+CR-665348-1707,note,Waits at Readville for Train 1807
+CR-665348-1707,trip_type,wait
+CR-677163-1804,note,Waits at Readville for Train 1704
+CR-677163-1804,trip_type,wait
+CR-677293-2804,note,Waits at Readville for Train 2704
+CR-677293-2804,trip_type,wait
+CR-665437-2705,note,Waits at Readville for Train 2805
+CR-665437-2705,trip_type,wait
+CR-665399-2719,note,Waits at Readville for Train 2819
+CR-665399-2719,trip_type,wait
+CR-665400-2711,note,Waits at Readville for Train 2811
+CR-665400-2711,trip_type,wait
+CR-677292-2806,note,Waits at Readville for Train 2706
+CR-677292-2806,trip_type,wait
+63288268-19:45-AlewifeKendall1,note,Waits at some downtown stations for connections
+63288268-19:45-AlewifeKendall1,trip_type,wait
+63288268-19:45-AlewifeKendall2,note,Waits at some downtown stations for connections
+63288268-19:45-AlewifeKendall2,trip_type,wait
+63288279-19:45-AlewifeKendall0,note,Waits at some downtown stations for connections
+63288279-19:45-AlewifeKendall0,trip_type,wait
+63288279-19:45-AlewifeKendall1,note,Waits at some downtown stations for connections
+63288279-19:45-AlewifeKendall1,trip_type,wait
