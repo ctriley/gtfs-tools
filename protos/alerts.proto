@@ -6,6 +6,6 @@ message Alert {
   string description = 3;
 }
 
-message FeedMessage {
+message AlertFeedMessage {
   repeated Alert entity = 1;
 }

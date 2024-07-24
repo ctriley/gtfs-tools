@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message VehiclePosition {
+  string vehicle_id = 1;
+  float latitude = 2;
+  float longitude = 3;
+  uint64 timestamp = 4;
+}
+
+message VehiclePositionFeedMessage {
+  repeated VehiclePosition entity = 1;
+}
