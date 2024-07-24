@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13protos/alerts.proto\"8\n\x05\x41lert\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0e\n\x06header\x18\x02 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x03 \x01(\t\"%\n\x0b\x46\x65\x65\x64Message\x12\x16\n\x06\x65ntity\x18\x01 \x03(\x0b\x32\x06.Alertb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13protos/alerts.proto\"B\n\x05\x41lert\x12\n\n\x02id\x18\x01 \x01(\t\x12\x13\n\x0bheader_text\x18\x02 \x01(\t\x12\x18\n\x10\x64\x65scription_text\x18\x03 \x01(\t\"#\n\tAlertFeed\x12\x16\n\x06\x65ntity\x18\x01 \x03(\x0b\x32\x06.Alertb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'protos.alerts_pb2', globals())
@@ -21,7 +21,7 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _ALERT._serialized_start=23
-  _ALERT._serialized_end=79
-  _FEEDMESSAGE._serialized_start=81
-  _FEEDMESSAGE._serialized_end=118
+  _ALERT._serialized_end=89
+  _ALERTFEED._serialized_start=91
+  _ALERTFEED._serialized_end=126
 # @@protoc_insertion_point(module_scope)

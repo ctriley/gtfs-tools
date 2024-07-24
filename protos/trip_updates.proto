@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message VehiclePosition {
+  string vehicle_id = 1;
+  float latitude = 2;
+  float longitude = 3;
+  float bearing = 4;
+  float speed = 5;
+  uint64 timestamp = 6;
+  // Add other fields based on the actual schema
+}
+
+message VehiclePositionFeed {
+  repeated VehiclePosition entity = 1;
+}
