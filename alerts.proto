@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message Alert {
+  string id = 1;
+  string header = 2;
+  string description = 3;
+}
+
+message FeedMessage {
+  repeated Alert entity = 1;
+}
