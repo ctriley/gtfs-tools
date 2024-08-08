@@ -1,0 +1,27 @@
+{
+  "header": {
+    "gtfsRealtimeVersion": "2.0",
+    "incrementality": "FULL_DATASET",
+    "timestamp": "1723075419"
+  },
+  "entity": [
+    {
+      "id": "vehicle1",
+      "vehicle": {
+        "trip": {
+          "tripId": "trip1"
+        },
+        "position": {
+          "latitude": 37.791897,
+          "longitude": -122.39946,
+          "bearing": 32.3,
+          "speed": 6.7
+        },
+        "timestamp": "1723075419",
+        "vehicle": {
+          "id": "vehicle1"
+        }
+      }
+    }
+  ]
+}

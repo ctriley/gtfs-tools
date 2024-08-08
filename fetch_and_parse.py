@@ -1,82 +1,56 @@
 import requests
 import time
 import json
-import protos.alerts_pb2 as alerts_pb2
-import protos.trip_updates_pb2 as trip_updates_pb2
-import protos.vehicle_positions_pb2 as vehicle_positions_pb2
 from google.protobuf.json_format import MessageToJson
+from template_pb2 import FeedMessage
 
-def fetch_gps_data():
-    # Simulated GPS data; replace with actual data fetching logic
-    return [
-        {
-            "latitude": 37.791898010762964,
-            "longitude": -122.3994580905113,
-            "bearing": 32.3,
-            "vehicleId": "vehicle1",
-            "speed": 6.7
-        }
-        # Add more GPS data as needed
-    ]
+def fetch_mbta_gtfs_rt_data(url):
+    response = requests.get(url)
+    if response.status_code == 200:
+        feed = FeedMessage()
+        feed.ParseFromString(response.content)
+        return feed
+    else:
+        print(f"Failed to fetch data: HTTP {response.status_code}")
+        return None
 
-def match_gps_to_trip(gps_data, gtfs_data):
-    # Logic to match GPS data to GTFS trip IDs
-    matched_data = []
-    for gps in gps_data:
-        matched_data.append({
-            "trip_id": "trip1",  # Simulated match; replace with actual matching logic
-            "vehicle_id": gps["vehicleId"],
-            "latitude": gps["latitude"],
-            "longitude": gps["longitude"],
-            "bearing": gps["bearing"],
-            "speed": gps["speed"],
-            "timestamp": int(time.time())
-        })
-    return matched_data
-
-def fetch_gtfs_data():
-    # Fetch GTFS static data
-    gtfs_url = "https://cdn.mbta.com/MBTA_GTFS.zip"
-    response = requests.get(gtfs_url)
-    # Extract and parse GTFS data
-    # For simplicity, assume GTFS data is parsed into a suitable format
-    return {}
-
-def generate_vehicle_positions_feed(matched_data):
-    feed = vehicle_positions_pb2.VehiclePositionFeed()
-    for data in matched_data:
-        position = feed.entity.add()
-        position.vehicle_id = data["vehicle_id"]
-        position.latitude = data["latitude"]
-        position.longitude = data["longitude"]
-        position.bearing = data["bearing"]
-        position.speed = data["speed"]
-        position.timestamp = data["timestamp"]
-    return feed
+def process_feed(feed):
+    json_feed = json.loads(MessageToJson(feed, including_default_value_fields=True))
+    
+    # Extract relevant information
+    processed_data = {
+        "header": json_feed["header"],
+        "entity": []
+    }
+    
+    for entity in json_feed.get("entity", []):
+        if "tripUpdate" in entity:
+            processed_entity = {
+                "id": entity["id"],
+                "tripUpdate": {
+                    "trip": entity["tripUpdate"]["trip"],
+                    "stopTimeUpdate": entity["tripUpdate"].get("stopTimeUpdate", [])
+                }
+            }
+            processed_data["entity"].append(processed_entity)
+    
+    return processed_data
 
 def save_to_json(data, filename):
     with open(filename, "w") as json_file:
         json.dump(data, json_file, indent=2)
 
 def fetch_and_save_data():
-    # Fetch GPS data
-    gps_data = fetch_gps_data()
+    url = "https://cdn.mbta.com/realtime/TripUpdates.pb"
+    feed = fetch_mbta_gtfs_rt_data(url)
     
-    # Fetch GTFS data
-    gtfs_data = fetch_gtfs_data()
-    
-    # Match GPS data to GTFS trip IDs
-    matched_data = match_gps_to_trip(gps_data, gtfs_data)
-    
-    # Generate GTFS-RT feeds
-    vehicle_positions_feed = generate_vehicle_positions_feed(matched_data)
-    
-    # Convert to JSON
-    vehicle_positions_json = MessageToJson(vehicle_positions_feed)
-    
-    # Save JSON data
-    timestamp = int(time.time())
-    save_to_json(json.loads(vehicle_positions_json), f"vehicle_positions_{timestamp}.json")
+    if feed:
+        processed_data = process_feed(feed)
+        timestamp = int(time.time())
+        save_to_json(processed_data, f"mbta_trip_updates_{timestamp}.json")
+        print(f"Data saved to mbta_trip_updates_{timestamp}.json")
+    else:
+        print("Failed to fetch and process data")
 
 # Fetch and save data every minute for 30 minutes
 start_time = time.time()

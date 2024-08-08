@@ -14,3 +14,6 @@
      - [Trip Updates](https://cdn.mbta.com/realtime/TripUpdates.pb)
      - [Vehicle Positions](https://cdn.mbta.com/realtime/VehiclePositions.pb)
    - Use this real-time data to update the schedule, focusing on the `stop_times.txt` file.
+
+
+- Take vehicle id and position ---> tripId
