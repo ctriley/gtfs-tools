@@ -15,7 +15,7 @@ def fetch_mbta_gtfs_rt_data(url):
         return None
 
 def process_feed(feed):
-    json_feed = json.loads(MessageToJson(feed, including_default_value_fields=True))
+    json_feed = json.loads(MessageToJson(feed))
     
     # Extract relevant information
     processed_data = {
@@ -41,13 +41,17 @@ def save_to_json(data, filename):
         json.dump(data, json_file, indent=2)
 
 def fetch_and_save_data():
-    url = "https://cdn.mbta.com/realtime/TripUpdates.pb"
-    feed = fetch_mbta_gtfs_rt_data(url)
-    
-    if feed:
-        processed_data = process_feed(feed)
+    trip_updates_url = "https://cdn.mbta.com/realtime/TripUpdates.pb"
+    vehicle_positions_url = "https://cdn.mbta.com/realtime/VehiclePositions.pb"
+    trip_updates_feed = json.loads(MessageToJson(fetch_mbta_gtfs_rt_data(trip_updates_url)))
+    vehicle_positions_feed = json.loads(MessageToJson(fetch_mbta_gtfs_rt_data(vehicle_positions_url)))
+
+    if trip_updates_feed and vehicle_positions_feed:
+        # vehicle_processed_data = process_feed(vehicle_positions_feed)
+        # trip_processed_data = process_feed(trip_updates_feed)
         timestamp = int(time.time())
-        save_to_json(processed_data, f"mbta_trip_updates_{timestamp}.json")
+        save_to_json(trip_updates_feed, f"mbta_trip_updates_{timestamp}.json")
+        save_to_json(vehicle_positions_feed, f"mbta_vehicle_positions_{timestamp}.json")
         print(f"Data saved to mbta_trip_updates_{timestamp}.json")
     else:
         print("Failed to fetch and process data")
