@@ -3,6 +3,7 @@ import time
 import json
 from google.protobuf.json_format import MessageToJson
 from template_pb2 import FeedMessage
+import os
 
 def fetch_mbta_gtfs_rt_data(url):
     response = requests.get(url)
@@ -37,8 +38,14 @@ def process_feed(feed):
     return processed_data
 
 def save_to_json(data, filename):
-    with open(filename, "w") as json_file:
+    directory = "extracted_jsons"
+    os.makedirs(directory, exist_ok=True)  # Ensure the directory exists
+    
+    filepath = os.path.join(directory, filename)  # Create the full path for the file
+    
+    with open(filepath, "w") as json_file:
         json.dump(data, json_file, indent=2)
+
 
 def fetch_and_save_data():
     trip_updates_url = "https://cdn.mbta.com/realtime/TripUpdates.pb"
